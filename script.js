@@ -113,7 +113,7 @@ class App {
 
     // Load Default Map When The Users Location Was Missed
     _loadDefaultMap() {
-        this.#map = L.map('map').setView([35.69404895695763, 51.38721244128801], 13);
+        this.#map = L.map('map').setView([51.5072, 0.1276], 13);
 
         L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
